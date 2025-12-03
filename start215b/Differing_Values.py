@@ -143,7 +143,7 @@ def solve():
     
     for i in range(k):
         chain = (n-i-1)//k +1
-        mini = chain//2
+        mini += chain//2
         extra += chain%2
         
     if mini<= ones <= mini + extra:
